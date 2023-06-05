@@ -12,6 +12,7 @@ WRF hourly precipitation data 2011-2020
 Tracked convective storms from WRF data 2011-2020
 
 Scripts : 
-cyclones_data.py : convert cyclone lists data into xarrays saved as pkl files (9 lists for 9 different Confidence Levels (CL))
-convective_storms_data.py : create xarrays of convective storms and save as pkl file
+cyclones_data.py : convert cyclone lists data into panda DataFrame and crop on subdomain too (9 lists for 9 different Confidence Levels (CL))
+convective_storms_data.py : create xarrays/(or panda DataFrame?) of convective storms
 plot_percentiles_map.py : plot maps of percentiles of hourly PR for WRF and ERA5 data + subplots of seasonal percentiles
+plot_density_maps_storms.py : plot density maps of cyclones and convective storms
